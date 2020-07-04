@@ -1,0 +1,14 @@
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: grey;
+    .logo{
+         width: 800px;
+         img{
+             max-width: 100%;
+             width: 350px;
+         }
+    }
+}
