@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Dash from './components/dashboard';
+import { BrowserRouter} from "react-router-dom";
 import * as serviceWorker from './serviceWorker';
+import Router from './utils/router';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Dash />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Router />
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
