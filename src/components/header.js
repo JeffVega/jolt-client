@@ -31,7 +31,7 @@ export default function Header(props) {
              ) : (
                 <header>
                 <div className="logo"> 
-                    <img id="logo_img" src={Logo} alt='logo img of website'  draggable='false'/> 
+                    <img id="logo_img"  src={require('../utils/img/logo-2.svg')} alt='logo img of website'  draggable='false'/> 
                 </div>
                 <ul>
                     <li><a href="/">Home</a></li>

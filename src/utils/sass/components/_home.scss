@@ -1,43 +1,4 @@
-header{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background: white;
-    height: 100px;
-    .logo{
-         max-width: 100%;
-         img{
-            
-         }
-    }
-    ul{
-        display: flex;
-        flex-direction: row;
-         align-items: center;
-        li{
-            list-style: none;
-            margin: 5px;
-            a{
-                text-decoration: none;
-                color: black
-                
-            }
-        }
-    }
-    // li {
-    //     align-self: center;
-    //     margin: 5px;
-    //     list-style: none;
-    //     font-size: 22px;
-        a{
-            align-self: center;
-            margin: 5px;
-            text-decoration: none;
-            color: #e7c332;
-        }
-    
-}
+
 .error{
     color:red;
     text-align: center;

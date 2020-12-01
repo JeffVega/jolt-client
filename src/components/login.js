@@ -1,15 +1,16 @@
 import React,{useState,useContext} from 'react';
 import UserContext from '../UserContext';
 import axios from 'axios';
- 
+import {BASE_URL} from "../utils/config";
 export default function Login(props) {
+    console.log(`${BASE_URL}/login`)
     const [username, setusername] = useState('');
     const [password, setpassword] = useState('');
     const [handleError, sethandleError] = useState("")
     const context = useContext(UserContext)
     function handleFormRequest(e){
         e.preventDefault()
-        axios.post('http://localhost:8080/api/login',{
+        axios.post(`${BASE_URL}/login`,{
             username:username,
             password:password
         },{

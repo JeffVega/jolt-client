@@ -1,0 +1,47 @@
+header{
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    justify-content: space-evenly;;
+    height: auto;
+    background: white;
+    a{
+        color: #1b1b16;
+        transition: 0.1s ease-in;
+        &:hover{
+            color: rgb(211, 211, 104);
+        }
+    }
+    .logo{
+       
+        
+        img{
+            
+            height: auto; 
+            width: auto; 
+            max-width: 250px; 
+            max-height: 150px;
+        }
+    }
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        align-items: center;
+        li{
+            margin: 5px;
+            // color: black;
+            font-size: 18px;
+            padding: 5px;
+            a{
+                text-decoration: none;
+                color: black;
+                &:hover{
+                    color: rgb(211, 211, 104);
+                }
+            }
+        }
+    }
+}

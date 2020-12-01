@@ -1,28 +1,3 @@
-header {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background: white;
-  height: 100px; }
-  header .logo {
-    max-width: 100%; }
-  header ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center; }
-    header ul li {
-      list-style: none;
-      margin: 5px; }
-      header ul li a {
-        text-decoration: none;
-        color: black; }
-  header a {
-    align-self: center;
-    margin: 5px;
-    text-decoration: none;
-    color: #e7c332; }
-
 .error {
   color: red;
   text-align: center; }
@@ -49,6 +24,38 @@ form {
       background: green;
       border: none;
       outline: none; }
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  height: auto;
+  background: white; }
+  header a {
+    color: #1b1b16;
+    transition: 0.1s ease-in; }
+    header a:hover {
+      color: #d3d368; }
+  header .logo img {
+    height: auto;
+    width: auto;
+    max-width: 250px;
+    max-height: 150px; }
+  header ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center; }
+    header ul li {
+      margin: 5px;
+      font-size: 18px;
+      padding: 5px; }
+      header ul li a {
+        text-decoration: none;
+        color: black; }
+        header ul li a:hover {
+          color: #d3d368; }
 
 * {
   margin: 0;
